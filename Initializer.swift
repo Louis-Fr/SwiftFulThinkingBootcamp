@@ -9,14 +9,37 @@ import SwiftUI
 
 struct Initializer: View {
     
-    let backgroundColor: Color
+    var backgroundColor: Color
     let count: Int
-    let title: String
+    var title: String
     
-    init(backgroundColor: Color, count: Int, title: String) {
-        self.backgroundColor = backgroundColor
+    init(count: Int, title: String, fruit: Fruit) {
         self.count = count
         self.title = title
+        
+        if title == "Apples" {
+            self.backgroundColor = .red
+        } else {
+            self.backgroundColor = .orange
+        }
+        
+        if fruit == .apple {
+            
+            self.title = "Choice enum is Apple"
+            self.backgroundColor = .red
+
+        } else {
+            
+            self.title = "Choice enum is Orange"
+            self.backgroundColor = .orange
+        }
+    }
+    
+    
+    
+    enum Fruit {
+        case apple
+        case orange
     }
     
     
@@ -39,7 +62,10 @@ struct Initializer: View {
     
     struct Initializer_Previews: PreviewProvider {
         static var previews: some View {
-            Initializer(backgroundColor: .blue, count: 34, title: "Apples")
+            HStack {
+                Initializer(count: 100, title: "Apples", fruit: .apple)
+                Initializer(count: 30, title: "Orange", fruit: .orange)
+            }
         }
     }
 
