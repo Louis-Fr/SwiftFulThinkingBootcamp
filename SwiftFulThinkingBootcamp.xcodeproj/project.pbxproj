@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C58D5A5428ED31DB001073E8 /* ForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58D5A5328ED31DB001073E8 /* ForEach.swift */; };
+		C58D5A5428ED31DB001073E8 /* ForEachLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58D5A5328ED31DB001073E8 /* ForEachLoop.swift */; };
 		C58D5A5628ED323D001073E8 /* Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58D5A5528ED323D001073E8 /* Picker.swift */; };
 		C5C4C7C928EC3EA900D430D1 /* SwiftFulThinkingBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C4C7C828EC3EA900D430D1 /* SwiftFulThinkingBootcampApp.swift */; };
 		C5C4C7CB28EC3EA900D430D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C4C7CA28EC3EA900D430D1 /* ContentView.swift */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C58D5A5328ED31DB001073E8 /* ForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEach.swift; sourceTree = "<group>"; };
+		C58D5A5328ED31DB001073E8 /* ForEachLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoop.swift; sourceTree = "<group>"; };
 		C58D5A5528ED323D001073E8 /* Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker.swift; sourceTree = "<group>"; };
 		C5C4C7C528EC3EA900D430D1 /* SwiftFulThinkingBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftFulThinkingBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C4C7C828EC3EA900D430D1 /* SwiftFulThinkingBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFulThinkingBootcampApp.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 			isa = PBXGroup;
 			children = (
 				C58D5A5528ED323D001073E8 /* Picker.swift */,
-				C58D5A5328ED31DB001073E8 /* ForEach.swift */,
+				C58D5A5328ED31DB001073E8 /* ForEachLoop.swift */,
 				C5C4C7D628EC411300D430D1 /* Initializer.swift */,
 				C5C4C7C728EC3EA900D430D1 /* SwiftFulThinkingBootcamp */,
 				C5C4C7C628EC3EA900D430D1 /* Products */,
@@ -146,7 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C58D5A5428ED31DB001073E8 /* ForEach.swift in Sources */,
+				C58D5A5428ED31DB001073E8 /* ForEachLoop.swift in Sources */,
 				C5C4C7D728EC411300D430D1 /* Initializer.swift in Sources */,
 				C5C4C7CB28EC3EA900D430D1 /* ContentView.swift in Sources */,
 				C58D5A5628ED323D001073E8 /* Picker.swift in Sources */,
