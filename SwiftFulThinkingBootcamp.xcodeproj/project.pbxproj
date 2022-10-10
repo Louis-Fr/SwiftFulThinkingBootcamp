@@ -14,6 +14,7 @@
 		C5C4C7CD28EC3EAA00D430D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5C4C7CC28EC3EAA00D430D1 /* Assets.xcassets */; };
 		C5C4C7D028EC3EAA00D430D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5C4C7CF28EC3EAA00D430D1 /* Preview Assets.xcassets */; };
 		C5C4C7D728EC411300D430D1 /* Initializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C4C7D628EC411300D430D1 /* Initializer.swift */; };
+		C5CADC4428F424F900381DD0 /* ExtractedFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CADC4328F424F900381DD0 /* ExtractedFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		C5C4C7CC28EC3EAA00D430D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5C4C7CF28EC3EAA00D430D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C5C4C7D628EC411300D430D1 /* Initializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initializer.swift; sourceTree = "<group>"; };
+		C5CADC4328F424F900381DD0 /* ExtractedFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 				C58D5A5528ED323D001073E8 /* Picker.swift */,
 				C58D5A5328ED31DB001073E8 /* ForEachLoop.swift */,
 				C5C4C7D628EC411300D430D1 /* Initializer.swift */,
+				C5CADC4328F424F900381DD0 /* ExtractedFunctions.swift */,
 				C5C4C7C728EC3EA900D430D1 /* SwiftFulThinkingBootcamp */,
 				C5C4C7C628EC3EA900D430D1 /* Products */,
 			);
@@ -150,6 +153,7 @@
 				C5C4C7D728EC411300D430D1 /* Initializer.swift in Sources */,
 				C5C4C7CB28EC3EA900D430D1 /* ContentView.swift in Sources */,
 				C58D5A5628ED323D001073E8 /* Picker.swift in Sources */,
+				C5CADC4428F424F900381DD0 /* ExtractedFunctions.swift in Sources */,
 				C5C4C7C928EC3EA900D430D1 /* SwiftFulThinkingBootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

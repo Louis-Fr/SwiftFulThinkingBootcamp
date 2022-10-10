@@ -15,6 +15,15 @@ struct ForEachLoop: View {
     } */
     let myText: String = "test"
     
+    // Loop ForEach
+    // On doit lui fournir des données (collections)
+    // Une plage de valeur à parcourir dans la boucle
+    // identifiant = id  définit sur la valeur elle même
+    // Le paramètre index stocke la valeur actuelle de la boucle
+    // La vue à rendre est entre les accolades
+    // Impératif de fournir un id pour mettre à jour l'élement si il est modifié ou supprimé
+    // $0 fait référence au 1er paramètre de l'accolade
+    
     
     var body: some View {
         
@@ -22,14 +31,19 @@ struct ForEachLoop: View {
         
         VStack(spacing: 15) {
             ForEach(data.indices) { index in
-                Text("\(data[index]) : \(index)")
+                Text("\(data[index]) -> \(index)")
                     .padding(5)
             }
         }
         
-            HStack {
-                List(data.indices) { index in
+            VStack {
+                ForEach(data.indices) { index in
                         Text(self.data[index])
+                }
+                
+                // on peut se passer du foreach
+                List(1...5, id: \.self) {
+                        Text("item \($0)")
                 }
             }
     
