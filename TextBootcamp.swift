@@ -9,7 +9,16 @@ import SwiftUI
 
 struct TextBootcamp: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Hello, World!")
+            .font(.caption)
+            .fontWeight(.black)
+            .foregroundColor(Color.purple)
+            .multilineTextAlignment(.trailing)
+            .padding()
+        Text("Placeholder")
+            .multilineTextAlignment(.center)
+            .font(.title)
+            .fontWeight(.ultraLight)
     }
 }
 

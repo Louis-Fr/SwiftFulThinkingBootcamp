@@ -9,10 +9,7 @@ import SwiftUI
 
 struct ForEachLoop: View {
     
-    var data: [String] = ["Renault", "Dacia", "Jeep", "Honda", "Toyota"]
-    /* init(data: [String]) {
-        self.data = data
-    } */
+    var data: [String] = ["Renault", "Dacia", "Renault", "Honda", "Toyota"]
     let myText: String = "test"
     
     // Loop ForEach
@@ -30,14 +27,14 @@ struct ForEachLoop: View {
         
         
         VStack(spacing: 15) {
-            ForEach(data.indices) { index in
+            ForEach(data.indices, id: \.self) { index in
                 Text("\(data[index]) -> \(index)")
                     .padding(5)
             }
         }
         
             VStack {
-                ForEach(data.indices) { index in
+                ForEach(data.indices, id: \.self) { index in
                         Text(self.data[index])
                 }
                 
@@ -46,6 +43,12 @@ struct ForEachLoop: View {
                         Text("item \($0)")
                 }
             }
+        
+        VStack {
+            ForEach(data.indices, id: \.self) { index in
+                Text(data[index])
+            }
+        }
     
         
         

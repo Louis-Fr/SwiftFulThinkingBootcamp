@@ -8,8 +8,17 @@
 import SwiftUI
 
 struct StateBootcamp: View {
+    @State private var tapCount = 0
+    @State private var isActive = true
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Button("Tap count: \(tapCount)") {
+                tapCount += 1
+            }
+            
+            Toggle("Hello", isOn: $isActive)    }
     }
 }
 
